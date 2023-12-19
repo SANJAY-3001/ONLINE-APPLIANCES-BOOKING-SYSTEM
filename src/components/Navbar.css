@@ -1,0 +1,46 @@
+.navbar-container
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    height: 80px;
+    position: relative;
+}
+.logo{
+    display: flex;
+    margin: 10px 40px;
+}
+.logo img{
+    width: 80px;
+    height: 40px;
+}
+
+.navbar-container li{
+    color: #fff;
+    font-family: cursive;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 0px 30px;
+    margin: 10px 7px;
+    margin-bottom: 40px;
+    transition: background-color 0.3s;
+    display: inline;
+    cursor: pointer;
+}
+
+.navbar-container a {
+    text-decoration: none;
+}
+.navbar-container li i{
+    font-size: 40px
+}
+.unordered-list{
+    display: flex;
+    float: right;
+    margin: 20px;
+}
+.unordered-list li{
+    text-decoration: none;
+    list-style: none;
+}
