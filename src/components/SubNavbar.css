@@ -1,0 +1,48 @@
+.navbar-containers
+{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    height: 40px;
+    position: relative;
+    background-color: rgba(34, 122, 231, 0.874);
+}
+
+.navbar-containers li{
+    /* color:rgb(29, 120, 248); */
+    color:white;
+    font-family: sans-serif;
+    font-weight: 100;
+    text-decoration: none;
+    padding: 0px 30px;
+    margin: 10px 7px;
+    margin-bottom: 40px;
+    transition: background-color 0.3s;
+    display: inline;
+    cursor: pointer;
+}
+.navbar-containers-name{
+    /* margin-top: 5px; */
+    margin-left: 40px;
+        font-weight: 700;
+        font-size: x-large;
+        margin-bottom: 40px;
+    /* font-weight: bold; */
+    color: white;
+    font-style: italic;
+}
+.navbar-containers a {
+    text-decoration: none;
+}
+.navbar-containers li i{
+    font-size: 40px
+}
+.unordered-lists{
+    display: flex;
+    float: right;
+    margin: 8px;
+}
+.unordered-lists li{
+    text-decoration: none;
+    list-style: none;
+}

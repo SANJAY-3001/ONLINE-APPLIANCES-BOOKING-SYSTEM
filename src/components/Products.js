@@ -14,10 +14,6 @@ function KitchenSinkExample(props) {
         <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
         <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
       </ListGroup>
-      {/*<Card.Body>
-        <Card.Link href="#">Card Link</Card.Link>
-        <Card.Link href="#">Another Link</Card.Link>
-  </Card.Body>*/}
     </Card>
   );
 }

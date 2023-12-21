@@ -1,4 +1,3 @@
-// src/components/CarouselImage.js
 import React from 'react';
 
 const CarouselImage = ({ src, alt }) => {

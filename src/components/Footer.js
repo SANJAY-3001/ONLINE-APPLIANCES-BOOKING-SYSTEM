@@ -9,14 +9,14 @@ const Footer = () => {
         <div className="footer-section about">
           <h2>About Us</h2>
           <p>
-            Your Online Appliance Store is dedicated to providing high-quality appliances at
+            Netprods Online Appliance Store is dedicated to providing high-quality appliances at
             affordable prices. We aim to make your shopping experience convenient and enjoyable.
           </p>
         </div>
         <div className="footer-section contact">
           <h2>Contact Us</h2>
-          <p>Email: info@appliancestore.com</p>
-          <p>Phone: (123) 456-7890</p>
+          <p>Email: netprods@appliancestore.com</p>
+          <p>Phone: 9361387564</p>
         </div>
         <div className="footer-section social">
           <h2>Follow Us</h2>
@@ -37,7 +37,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; 2023 Your Online Appliance Store. All rights reserved.</p>
+        <p>&copy; 2023 Our Online Appliance Store. All rights reserved.</p>
       </div>
     </footer>
   );

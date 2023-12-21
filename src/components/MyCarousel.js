@@ -7,7 +7,7 @@ import slide3 from '../assets/slide3.jpg';
 
 const MyCarousel = () => {
   const arrowStyles = {
-    fontSize: '80px',
+    fontSize: '0px',
     color: 'grey',
     lineHeight: '1.5',
     borderRadius: '50%', 
@@ -17,7 +17,7 @@ const MyCarousel = () => {
   };
 
   return (
-    <Carousel interval={2000} nextIcon={<span style={arrowStyles}>&gt;</span>} prevIcon={<span style={arrowStyles}>&lt;</span>}>
+    <Carousel interval={2000} nextIcon={<span style={arrowStyles}>&gt;</span>} prevIcon={<span style={arrowStyles}>&lt;</span>} style={{border : "2px solid lightblue"}}>
       <Carousel.Item>
         <CarouselImage src={slide1} alt="First Image" />
       </Carousel.Item>

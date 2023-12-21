@@ -5,14 +5,19 @@ import MyCarousel from './MyCarousel'
 import Products from './Products'
 import ProductsMain from './ProductsMain'
 import Footer from './Footer'
+import Scroll from './Scroll'
+import Dailydeal from './Dailydeal'
+import SubNavbar from './SubNavbar'
 
 export default function Home() {
   return (
     <div>
     <Navbar/>
+    <SubNavbar></SubNavbar>
     <MyCarousel></MyCarousel>
-    <ProductsMain></ProductsMain>
-    {/*<Footer></Footer>*/}
+    <Scroll></Scroll>
+    <Dailydeal></Dailydeal>
+    <Footer></Footer>
     </div>
   )
 }

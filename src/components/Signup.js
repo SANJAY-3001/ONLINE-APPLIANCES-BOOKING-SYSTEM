@@ -17,14 +17,13 @@ export default function Signup() {
   const handleChange = (e) => {
     setInput({ ...input, [e.target.name]: e.target.value });
     setErrorMessage('');
+    
   };
 
   const formSubmitter = (e) => {
     e.preventDefault();
 
     const { username, email, password, confirmPassword } = input;
-
-    // Basic validation
     if (!username.trim() || !emailValidator(email)) {
       return setErrorMessage('Please enter a valid username and email');
     }
@@ -47,7 +46,7 @@ export default function Signup() {
       <img src={signupbg} alt='Signup' className='imageSignup'></img>
 
       
-      <div>
+      <div className='sub-box-container'>
         <div className='header'>Create Account</div>
 
             <div className='inputs'>
